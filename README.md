@@ -68,7 +68,7 @@ TimescaleDB-specific optimizations.
 
    - __I would basically enable ```add_compression_policy``` for old data__
    - __Run ```VACUUM``` command periodically__
-   - __Use ``pg_stat_user_indexes`` to identify unused indexes (if they exist)
+   - __Use ``pg_stat_user_indexes`` to identify unused indexes (if they exist)__
 
    - Ref: https://www.timescale.com/blog/how-to-reduce-your-postgresql-database-size/
 
